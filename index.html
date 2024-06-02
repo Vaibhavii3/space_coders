@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Coders</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container"></div>
+        <div id="main-menu" class="menu">
+            <h1>Space Coders</h1>
+            <button id="start-game">Start Game</button>
+            <button id="continue-game">Continue</button>
+            <button id="options">Options</button>
+        </div>
+        
+    
+
+    <div id="space-map" class="hidden">
+        <h2>Space Map</h2>
+        <div class="planet" id="tutorial-planet">Tutorial Planet</div>
+        <div class="planet" id="planet-1">Planet 1</div>
+        <div class="planet" id="planet-2">Planet 2</div>
+        <div class="planet" id="planet-3">Planet 3</div>
+        <div class="planet" id="planet-4">Planet 4</div>
+    </div>
+
+    <div id="coding-challenge" class="hidden">
+        <h2 id="challenge-title">Coding Challenge</h2>
+        <div id="editor" contenteditable="true"></div>
+        <button id="submit-code">Submit Code</button>
+        <div id="output"></div>
+        <div id="navigation-buttons" class="hidden">
+            <button id="home-button">Home</button>
+            <button id="back-button">Back</button>
+            <button id="next-planet-button">Next Planet</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
